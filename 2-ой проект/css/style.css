@@ -1,0 +1,642 @@
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-medium.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/gilroy-medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+ф :active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  width: 1445px;
+  height: 4759px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+.big-container {
+  background-color: white;
+  width: 1445px;
+  height: 4759px;
+}
+.text-Home {
+  position: absolute;
+  left: 17.44%;
+  top: 0.69%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.text-Aboutme {
+  position: absolute;
+  left: 31.62%;
+  top: 0.69%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.text-Scills {
+  position: absolute;
+  left: 48.09%;
+  top: 0.69%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.text-Portfolio {
+  position: absolute;
+  left: 61.71%;
+  top: 0.67%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.text-Contacts {
+  position: absolute;
+  left: 77.48%;
+  top: 0.69%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+hr {
+  position: absolute;
+  width: 940.6px;
+  height: 0px;
+  left: 250.69px;
+  top: 87.94px;
+  border: 1px solid #828282;
+}
+.text-DenisNovik {
+  position: absolute;
+  left: 17.37%;
+  top: 128.13px;
+  width: 123.51px;
+  height: 118.17px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 59px;
+  color: #070707;
+}
+.longtext-UX {
+  position: absolute;
+  left: 46.49%;
+  top: 190.21px;
+  width: 155.65px;
+  height: 44.06px;
+  font-family: "Gilroy-Medium";
+  text-align: left;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.text-RU {
+  position: absolute;
+  left: 1155px;
+  top: 185px;
+  width: 65px;
+  height: 20px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+.span1 {
+  color: black;
+}
+.image1 {
+  position: absolute;
+  width: 943.61px;
+  height: 387px;
+  left: 250.69px;
+  top: 276.94px;
+}
+.block1 {
+  position: absolute;
+  width: 1445px;
+  height: 506px;
+  left: 0px;
+  top: 768px;
+  background: #f6f6f6;
+}
+.text-Aboutme2 {
+  position: absolute;
+  left: 44.68%;
+  top: 18.66%;
+  width: 155px;
+  height: 43px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.longtext-block {
+  position: absolute;
+  width: 485.34px;
+  height: 218px;
+  left: 480.33px;
+  top: 181px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.longtext-Ready {
+  width: 350px;
+  text-align: center;
+  margin-left: 70px;
+}
+.text-Skills2 {
+  position: absolute;
+  left: 45.8%;
+  top: 28.68%;
+  width: 124px;
+  height: 26px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.longtext-Iwork {
+  position: absolute;
+  left: 42.18%;
+  right: 42.04%;
+  top: 30.68%;
+  bottom: 68.81%;
+
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.Ps {
+  position: absolute;
+  width: 89.07px;
+  height: 88.41px;
+  left: 294.22px;
+  top: 1566.65px;
+}
+.Ai {
+  position: absolute;
+  width: 89.21px;
+  height: 88.57px;
+  left: 551px;
+  top: 1567px;
+}
+.Ae {
+  position: absolute;
+  left: 55.94%;
+  top: 32.94%;
+}
+.Figma {
+  position: absolute;
+  top: 1567px;
+  left: 1082px;
+}
+.text-Photoshop {
+  position: absolute;
+  width: 70px;
+  height: 27px;
+  left: 20.99%;
+  top: 35.29%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.text-Illustrator {
+  position: absolute;
+  width: 63px;
+  height: 27px;
+  left: 39.05%;
+  top: 35.29%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.text-AfterEffects {
+  position: absolute;
+  width: 79px;
+  height: 27px;
+  left: 56.29%;
+  top: 35.29%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.text-Figma {
+  position: absolute;
+  width: 41px;
+  height: 9.74px;
+  left: 75.47%;
+  top: 35.31%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.star-black-1 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 255.71px;
+  top: 1746.94px;
+}
+.star-black-2 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 290.8px;
+  top: 1746.94px;
+}
+.star-black-3 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 325.9px;
+  top: 1746.94px;
+}
+.star-black-4 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 361px;
+  top: 1746.94px;
+}
+.star-white-1 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 396.1px;
+  top: 1746.94px;
+}
+.star-black-5 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 512.42px;
+  top: 1747.94px;
+}
+.star-black-6 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 547.52px;
+  top: 1747.94px;
+}
+.star-black-7 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 582.61px;
+  top: 1747.94px;
+}
+.star-white-2 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 617.71px;
+  top: 1747.94px;
+}
+.star-white-3 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 652.81px;
+  top: 1747.94px;
+}
+.star-black-8 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 769.13px;
+  top: 1747.94px;
+}
+.star-black-9 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 804.23px;
+  top: 1747.94px;
+}
+.star-black-10 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 839.32px;
+  top: 1747.94px;
+}
+.star-black-11 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 874.42px;
+  top: 1747.94px;
+}
+.star-white-4 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 909.52px;
+  top: 1747.94px;
+}
+.star-black-12 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 1025.84px;
+  top: 1746.94px;
+}
+.star-black-13 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 1060.94px;
+  top: 1746.94px;
+}
+.star-black-14 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 1096.03px;
+  top: 1746.94px;
+}
+.star-black-15 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 1131.13px;
+  top: 1746.94px;
+}
+.star-white-5 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 1166.23px;
+  top: 1746.94px;
+}
+.block2 {
+  position: absolute;
+  width: 1445px;
+  height: 2253px;
+  left: 0px;
+  top: 1884px;
+  background: #f6f6f6;
+}
+.text-Portfolio1 {
+  position: absolute;
+  left: 659px;
+  top: 113px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.image2 {
+  position: absolute;
+  width: 936.24px;
+  height: 510px;
+  left: 257.71px;
+  top: 203px;
+}
+.text-Homepage {
+  position: absolute;
+  left: 589px;
+  top: 757px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+.image3 {
+  position: absolute;
+  width: 936.24px;
+  height: 522px;
+  left: 256.89px;
+  top: 879px;
+}
+.text-Reebok {
+  position: absolute;
+  left: 43.36%;
+  top: 1445px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+.image4 {
+  position: absolute;
+  width: 936.24px;
+  height: 522px;
+  left: 252.7px;
+  top: 1567px;
+}
+.text-Braun {
+  position: absolute;
+  left: 41.42%;
+  top: 2134px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+.text-Contacts1 {
+  position: absolute;
+  left: 44.89%;
+  top: 89.33%;
+  font-family: "Gilroy-Medium";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.longtext-Wanttoknow {
+  position: absolute;
+  width: 275px;
+  height: 44px;
+  left: 40.86%;
+  top: 90.66%;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.button {
+  position: absolute;
+  width: 180px;
+  height: 42px;
+  left: 634px;
+  top: 4400px;
+  background: #070707;
+  border-radius: 50px;
+}
+.text-Sendmessage {
+  position: absolute;
+  left: 28px;
+  top: 10px;
+  width: 122px;
+  height: 23px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.in {
+  position: absolute;
+  width: 40.17px;
+  height: 40.06px;
+  left: 552.29px;
+  top: 4516.64px;
+}
+.inst {
+  position: absolute;
+  width: 39px;
+  height: 40px;
+  left: 653px;
+  top: 4515px;
+}
+.Be {
+  position: absolute;
+  width: 40.11px;
+  height: 40px;
+  left: 753.08px;
+  top: 4516px;
+}
+.internet {
+  position: absolute;
+  width: 39.11px;
+  height: 40px;
+  left: 855px;
+  top: 4515px;
+}
+.longtext-Likemeon {
+  position: absolute;
+  width: 243px;
+  height: 34px;
+  left: 604px;
+  top: 4601px;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
